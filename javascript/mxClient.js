@@ -88155,3 +88155,31 @@ mxCodecRegistry.register(function()
 	return codec;
 
 }());
+
+module.exports = {
+	mxClient: mxClient,
+	mxLoadResources: mxLoadResources,
+	mxResourceExtension: mxResourceExtension,
+	mxLoadStylesheets: mxLoadStylesheets,
+	mxLog: mxLog,
+	mxObjectIdentity: mxObjectIdentity,
+	mxResources: mxResources,
+	mxEffects: mxEffects,
+	mxUtils: mxUtils,
+	mxConstants: mxConstants,
+	mxEvent: mxEvent,
+	mxClipboard: mxClipboard,
+	mxUrlConverter: mxUrlConverter,
+	mxVmlCanvas2D: mxVmlCanvas2D,
+	mxStencilRegistry: mxStencilRegistry,
+	mxMarker: mxMarker,
+	mxHierarchicalEdgeStyle: mxHierarchicalEdgeStyle,
+	mxCellPath: mxCellPath,
+	mxPerimeter: mxPerimeter,
+	mxEdgeStyle: mxEdgeStyle,
+	mxStyleRegistry: mxStyleRegistry,
+	mxCodecRegistry: mxCodecRegistry,
+	mxGenericChangeCodec: mxGenericChangeCodec,
+	mxStylesheetCodec: mxStylesheetCodec,
+	mxDefaultToolbarCodec: mxDefaultToolbarCodec,
+};
