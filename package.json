@@ -1,6 +1,6 @@
 {
   "name": "mxgraph",
-  "version": "v3.7.0.0",
+  "version": "3.7.0",
   "description": "mxgraph",
   "main": "javascript/mxClient.js",
   "directories": {
